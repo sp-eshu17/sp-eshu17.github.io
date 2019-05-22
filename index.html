@@ -3,18 +3,64 @@
 <meta charset="utf-8">
 <title> Testing of knowledge 1st day!!</title>
 <style>
-body{ background-color:purple}
-h1{color: orange;text-align:center}
+body{ background-color:orange}
+h1{color: black;text-align:center}
 #first{background-color:yellow}
 #second {background-color:red}
 #f1{color:green}
-
+#heading2{background-color:white;
+           font-weight:bold;
+		   font-size:48px;
+		   font-family:sans-serif;
+		   text-decoration:underline;
+		   text-align:center;
+		   }
+		   
+.para1{color:green;
+        font-style:italics;
+		line-height:1.5em;
+		}
+		
+		
+		#head1{ color:white;
+		        font-style:italics;
+				}
+				#head2{ text-align:center;
+				         font-style:italics;
+						 font-size-48px;
+						 color:red;
+						 }
+						 #int1{ background-color:purple;
+						 font-style:italics;
+						 font-size:50px;
+						 }
+						 #int2{ background-color:green;
+						 font-weight:bold;
+						 }
+						 #third{color:yellow;
+						        line-height:2em;
+								font-style:italics;
+								}
 </style>
 </head>
 
-<body>
+<body background="data:image/jpeg;base64,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">
 <h1>       <u>                                       World Cup 2019      </u>                           </h1>
 
+
+<h2 id="int1"> Contents</h2>
+
+<ul>
+<li><a href="#int"> Introduction</a></li>
+<li><a href="#f1"> India vs Pakistan Clash</a></li>
+<li><a href="#heading2">Favorites for the World Cup 2019</a></li>
+<li><a href="#head1">ICC ODI RANKINGS</a></li>
+<li><a href="#head2">Schedule of World Cup</a></li>
+<h2 id="c1"> 
+
+
+
+<h2 id="int2"> Introduction</h2>
 <p id="first"> The Cricket World Cup 2019 is one of the most prestigious tournament of ICC (International Cricket Council).<br>
 <strong>This year the world cup will be played in England and Wales from <em> 30th May 2019 to 16th June 2019</em>.</strong> It will consist of 10 teams fighting against each other for the conveted title.<br>
 </p>
@@ -22,6 +68,7 @@ h1{color: orange;text-align:center}
 India and England will go into the tounament as clear favorites. It is going to be an exciting summer of cricket for all the cricket lovers after the commencement of the IPL 2019.
 </p>
 <center>
+
 <img id="1" src="https://sportzdose.com/wp-content/uploads/2019/05/icc-cricket-world-cup-2019-the-fair-of-stars.jpg" width="250"style="dislay:block;margin-left:auto;margin-right:auto;"/ >
 </center>
 <h2 id="f1"> The Biggest Rivalry to take the Centre Stage in World Cup</h2>
@@ -29,10 +76,97 @@ India and England will go into the tounament as clear favorites. It is going to 
 <img src="https://c.ndtvimg.com/2019-02/uq5v48c_india-vs-pakistan-afp_625x300_19_February_19.jpg?output-quality=70&output-format=webp&downsize=555:*"style="float:left"height="250">
 India vs Pakistan is considered as one of the biggest rivalries in World Cricket or any sort of sports due to the tension going on between the two countries.<br>
 India and Pakistan will lock horn in the ICC Cricket World Cup on 16th June 2019. It will be exciting to watch who emerges as victorious in this game.
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 </p>
+<h2 id="heading2"> India and England as top favorites to win the World Cup</h2>
+<p class="para1"> India and England have performed exceptionally well since the World Cup 2015 and are currently ranked as Number 2 and Number 1 in the ICC ODI Rankings.<br>
+India and England will lock horns on 30th June 2019 in the World Cup and it is surely going to be a cracker of a match. Both teams are the fans favorites in the World Cup and it<br>
+would be interesting to see whether they live upto the expectations of their fans.
+</p> 
 
+<h2 id="head1"> ICC ODI RANKINGS </h2>
+<table>
+<thead>
+<tr>
+<th>Ranking</th>
+<th>Team</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> 1</td>
+<td>England</td>
+<td>125</td>
+</tr>
+<tr>
+<td> 2</td>
+<td>India</td>
+<td>122</td>
+</tr>
+<tr>
+<td> 3</td>
+<td>New Zealand</td>
+<td>116</td>
+</tr>
+<tr>
+<td> 4</td>
+<td>Australia</td>
+<td>108</td>
+</tr>
+<tr>
+<td> 5</td>
+<td>South Africa</td>
+<td>102</td>
+</tr>
+<tr>
+<td> 6</td>
+<td>Pakistan</td>
+<td>98</td>
+</tr>
+<tr>
+<td> 7</td>
+<td>Bnagladesh</td>
+<td>96</td>
+</tr>
+<tr>
+<td> 8</td>
+<td>West Indies</td>
+<td>90</td>
+</tr>
+<tr>
+<td> 9</td>
+<td>Sri Lanka</td>
+<td>88</td>
+</tr>
+<tr>
+<td> 10</td>
+<td>Afghanistan</td>
+<td>76</td>
+</tr>
+
+</tbody>
+</table>
+<center>
+<h2 id="head2"> Schedule of the World Cup</h2>
+<a href="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/ICC_Cricket_World_Cup_2019_logo.svg/300px-ICC_Cricket_World_Cup_2019_logo.svg.png">
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/ICC_Cricket_World_Cup_2019_logo.svg/300px-ICC_Cricket_World_Cup_2019_logo.svg.png"width="300">
+</a>
+<a target="_blank" href="https://en.wikipedia.org/wiki/2019_Cricket_World_Cup"> Click here for the schedule of the Cricket World Cup 2019 </a>
+</center>
 </body>
 </html>
